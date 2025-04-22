@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid, Card, CardContent, Typography, CardMedia, Button, Box } from "@mui/material";
-import { motion } from "framer-motion";
 
 const projects = [
   {
