@@ -1,10 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 
-const techs = [
-  'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 
-  'PostgreSQL', 'Git', 'Postman', 'Tailwind', 'Material-UI', 
-  'HTML', 'CSS', 'Redux'
-];
+
 
 const Stack = () => {
   const containerRef = useRef(null);
@@ -14,6 +10,11 @@ const Stack = () => {
     const clone = container.innerHTML;
     container.innerHTML += clone; // дублируем контент для эффекта бесконечности
   }, []);
+  const techs = [
+    'JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 
+    'PostgreSQL', 'Git', 'Postman', 'Tailwind', 'Material-UI', 
+    'HTML', 'CSS', 'Redux'
+  ];
 
   return (
     <div className="marquee-wrapper">
