@@ -1,6 +1,5 @@
 import React from "react";
 import { Grid, Card, CardContent, Typography, CardMedia, Button, Box } from "@mui/material";
-// Импорт motion из framer-motion
 import { motion } from "framer-motion";
 
 export default function Portfolio() {
